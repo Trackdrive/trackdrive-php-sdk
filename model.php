@@ -8,7 +8,7 @@
 		private $token = '';
 		private $errors = array();
 		private $types = array('billings','buyers','buyer_groups','calls','contacts','offers','phone_numbers','traffic_sources','teams','page_views');
-		private $base_url   = 'https://_username_.trackdrive.net/api/v1/';
+		private $base_url   = 'https://_username_.trackdrive.com/api/v1/';
 
 		public function __construct($u = NULL,$t = NULL){
 			if(!$u || !$t){
